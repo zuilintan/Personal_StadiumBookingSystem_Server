@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<c3p0-config>
+
+    <!--自定义配置, 会覆盖默认配置-->
+    <named-config name="db_sbs">
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/db_sbs?serverTimezone=Hongkong</property>
+        <property name="user">test</property>
+        <property name="password">12345678</property>
+    </named-config>
+
+    <!--默认配置-->
+    <!--<default-config>
+         &lt;!&ndash;定义数据库驱动&ndash;&gt;
+         <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+         &lt;!&ndash;定义数据库URL&ndash;&gt;
+         <property name="jdbcUrl">jdbc:mysql://localhost:3306/db_name?serverTimezone=Hongkong</property>
+         &lt;!&ndash;定义数据库用户名称。Default: null&ndash;&gt;
+         <property name="user">username</property>
+         &lt;!&ndash;定义数据库用户密码。Default: null&ndash;&gt;
+         <property name="password">password</property>
+         &lt;!&ndash;定义线程数。Default: 3&ndash;&gt;
+         <property name="numHelperThreads">3</property>
+         &lt;!&ndash;定义连接池初始化连接的数量，取值应在minPoolSize与maxPoolSize之间。Default: 3&ndash;&gt;
+         <property name="initialPoolSize">3</property>
+         &lt;!&ndash;定义连接池中保留的最小连接数。Default: 3&ndash;&gt;
+         <property name="minPoolSize">3</property>
+         &lt;!&ndash;定义连接池中保留的最大连接数。Default: 15&ndash;&gt;
+         <property name="maxPoolSize">15</property>
+         &lt;!&ndash;定义数据源内加载的PreparedStatements数量。Default: 0&ndash;&gt;
+         <property name="maxStatements">0</property>
+         &lt;!&ndash;定义连接池内单个连接所拥有的最大缓存Statements数，若其与maxStatements同时为0，则缓存关闭。Default: 0&ndash;&gt;
+         <property name="maxStatementsPerConnection">0</property>
+         &lt;!&ndash;定义当连接池中的连接耗尽时，一次同时获取的连接数。Default: 3&ndash;&gt;
+         <property name="acquireIncrement">3</property>
+         &lt;!&ndash;定义两次连接的间隔时间，单位毫秒。Default: 1000&ndash;&gt;
+         <property name="acquireRetryDelay">1000</property>
+         &lt;!&ndash;定义在从数据库获取新连接失败后的重复尝试次数。Default: 30&ndash;&gt;
+         <property name="acquireRetryAttempts">30</property>
+         &lt;!&ndash;是否在获取连接时检测有效性。Default: false&ndash;&gt;
+         <property name="testConnectionOnCheckin">false</property>
+         &lt;!&ndash;是否在提交连接时检测有效性，性能消耗很大。Default: false&ndash;&gt;
+         <property name="testConnectionOnCheckout">false</property>
+         &lt;!&ndash;定义连接测试的表名，C3P0将创建该空表，并使用自带的查询语句进行测试，注意，其会忽略preferredTestQuery。Default: null&ndash;&gt;
+         <property name="automaticTestTable">null</property>
+         &lt;!&ndash;定义连接测试的SQL语句，在使用连接测试的情况下可以显著提高测试速度。Default: null&ndash;&gt;
+         <property name="preferredTestQuery">select 1</property>
+         &lt;!&ndash;定义连接测试的间隔时间。Default: 0&ndash;&gt;
+         <property name="idleConnectionTestPeriod">300</property>
+         &lt;!&ndash;定义连接最大空闲时间，若为0则永不丢弃。Default: 0&ndash;&gt;
+         <property name="maxIdleTime">0</property>
+         &lt;!&ndash;定义当连接池中的连接耗尽时获取新连接的等待时间，超时将抛出SQLException，若为0则无限期等待，单位毫秒。Default: 0&ndash;&gt;
+         <property name="checkoutTimeout">0</property>
+     </default-config>-->
+</c3p0-config>

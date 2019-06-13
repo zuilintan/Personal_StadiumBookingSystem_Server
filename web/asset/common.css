@@ -1,0 +1,52 @@
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.layui-tab-content {
+    padding: 0;
+}
+
+.layui-form {
+    text-align: center;
+}
+
+.layui-form-item {
+    width: 250px;
+    margin: 0 auto 15px;
+}
+
+.layui-form-label {
+    width: 40px;
+    padding: 10px 0;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.layui-form-item .layui-input-inline {
+    width: 190px;
+    margin: 0;
+}
+
+.layui-table, .layui-table-view {
+    margin: 0;
+}
+
+#title {
+    height: 70px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+#msg {
+    color: teal;
+}
+
+#editInfoBtn {
+    width: 100%;
+}

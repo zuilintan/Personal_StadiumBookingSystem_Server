@@ -1,0 +1,8 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <JavaCodeStyleSettings>
+      <option name="FIELD_NAME_PREFIX" value="m" />
+      <option name="STATIC_FIELD_NAME_PREFIX" value="s" />
+    </JavaCodeStyleSettings>
+  </code_scheme>
+</component>

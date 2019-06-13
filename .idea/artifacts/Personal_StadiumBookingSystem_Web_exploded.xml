@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="Personal_StadiumBookingSystem:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Personal_StadiumBookingSystem_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Personal_StadiumBookingSystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Personal_StadiumBookingSystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="MySQL" />
+          <element id="library" level="application" name="JSTL" />
+          <element id="library" level="application" name="JSON" />
+          <element id="library" level="application" name="Gson" />
+          <element id="library" level="application" name="C3P0" />
+          <element id="library" level="application" name="DBUtils" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

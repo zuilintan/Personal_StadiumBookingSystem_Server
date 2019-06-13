@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="sbs">
+    <output-path>$PROJECT_DIR$/out/artifacts/sbs</output-path>
+    <root id="archive" name="sbs.war">
+      <element id="artifact" artifact-name="Personal_StadiumBookingSystem:Web exploded" />
+    </root>
+  </artifact>
+</component>
